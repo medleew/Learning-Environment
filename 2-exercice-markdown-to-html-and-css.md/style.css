@@ -1,0 +1,25 @@
+body
+{
+  background-color: rgb(153, 153, 255);
+}
+
+.Bienvenue {
+  color: blue;
+  font-size: 50px;
+}
+
+.Questceque_markdown {
+  font-size: 40px;
+  color: Red ;
+}
+
+.Syntaxe {
+  font-size: 30px;
+  color: brown;
+}
+
+.les_titres, .les_paragraphes, .emphase, .Listes, .Tableau, .Liens, .Images, .morceau_code {
+  color: grey;
+  font-family: fantasy;
+  font-size: 25px;
+}

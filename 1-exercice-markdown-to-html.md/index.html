@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>From Markdwon to html</title>
+  </head>
+  <body>
+<h2 class="Bienvenue">Bienvenue dans le Markdown</h2>
+
+<h2 class="Questceque_markdown">Qu’est-ce que Markdown ?</h2>
+
+  <p><strong>Markdown</strong> est un système d’édition et de <em>formatage de texte</em> ; <br>
+     c’est à la fois une <strong>syntaxe</strong>, un script de conversion texte → HTML et un format de fichier. <br>
+     Il est couramment utilisé pour les fichiers de documentation d’un projet ou d’un jeu de données -souvent nommé readme.md.</p>
+
+  <p>Il est stocké au format texte classique et est plus léger que sa version interprétée puisqu’il ne contient pas les balises html.</p>
+
+  <p>La philosophie du système veut que le texte écrit soit lisible sans interpréteur particulier en mode texte. <br>
+     Il est léger et épuré de l’essentiel de la verbosité d’un language balisé. <br>
+     Les éléments de syntaxe sont des caractères de ponctuation qui font sens visuellement même non convertis.</p>
+
+  <p>Une fois converti, le navigateur web (qui joue alors le rôle d’interpréteur) en rendra la lecture plus claire.</p>
+
+  <p>Les fichiers sont généralement enregistrés avec l’extension .md (ou .markdown ) pour indiquer aux interpréteur la nature du texte qu’il vont lire ; mais ça n’a rien d’obligatoire.</p>
+
+  <p>Comme le résultat sera exporté en HMTL, vous pouvez tout à fait introduire directement des balises HTML dans votre texte ; <br>
+     mais celui-ci deviendra moins lisible et ne pourra plus être édité par quelqu’un ne maîtrisant pas le HTML. <br>
+     Attention, le formatage markdown ne sera pas appliqué à l’intérieur de ces balises.</p>
+
+<h3 class="Syntaxe">Markdown: La Syntaxe:</h3>
+
+  <h4 class="les_titres">les titres :</h4>
+
+    <p>pour utiliser on utilisera cette syntaxe :</p>
+
+      <h1>Titre 1</h1> # + titre
+
+      <h2>Titre 2</h2> ## + titre
+
+      <h3>Titre 3</h3> ### + titre
+
+      <h4>Titre 4</h4> #### + titre
+
+      <h5>Titre 5</h5> ##### + titre
+
+  <h4 class="les_paragraphes">Les paragraphes:</h4>
+
+    <p>Pour afficher un paragraphe, sautez deux ligne et de taper son texte.</p>
+
+    <p>Un seul saut de ligne correspond à un retour chariot et pas à un changement de paragraphe.</p>
+
+  <h4 class="emphase">L’emphase:</h4>
+
+    <p>Pour formater une partie de votre texte comme emphase, entourez le par des astérisques ou des underscores. <br>
+       Entourer par un signe unique passe en italique (emphase faible : <em>;) et par un double signe en gras (emphase forte: *</em>;).</p>
+
+    <p>Il est possible de combiner les deux. Un double tildes vous permettent de barrer le texte.</p>
+
+    <p>À titre personnel, j’utilise plutôt les astérisques, mais c’est une question de goût. La seule chose importante est d’être cohérent dans vos documents.</p>
+
+    <p>italique: * * ou _ _ , en bold: ** ** ou __ __ , ~~barrés~~ .</p>
+
+  <h3 class="Listes">Listes:</h3>
+
+    <p>Sauter une ligne avant le début de la liste. puis on ajoute soit un * , + ou un - avant chaque point. </p>
+
+      <h4>1. Liste désordonné</h4>
+        <ul>
+          <li>* + Pommes</li>
+          <li><p>* + Poires</p>
+
+              <ul><li> * + Sous élément avec au moins quatre espaces devant.</li></ul></li>
+        </ul>
+
+      <h4>Liste Ordonné</h4>
+        <ol>
+          <li><p> 1. + mon premier</p></li>
+          <li><p> 2. + mon deuxième</p></li>
+        </ol>
+      <h4>Liste en mode case à coche</h4>
+        <ol>
+          <li><p>[ ] Case non cochée</p></li>
+          <li>[x] Case cochée</li>
+        </ol>
+
+  <h4 class="Tableau">Tableau:</h4>
+
+    <p>On crée des tables en assemblant des - pour les row et | pour les columns</p>
+
+    <pre>
+      <code>
+      | Titre 1       |     Titre 2     |        Titre 3 |
+      | :------------ | :-------------: | -------------: |
+      | Colonne       |     Colonne     |        Colonne |
+      | Alignée à     |   Alignée au    |      Alignée à |
+      | Gauche        |     Centre      |         Droite |
+    </code>
+    </pre>
+    <table class="table1">
+      <tr>
+        <th>Titre 1</th>
+        <th>Titre 2</th>
+        <th>Titre 3</th>
+      </tr>
+
+      <tr>
+        <td>Colonne</td>
+        <td>Colonne</td>
+        <td>Colonne</td>
+     </tr>
+     <tr>
+       <td>Alignée à</td>
+       <td>Alignée au </td>
+       <td>Alignée à</td>
+     </tr>
+     <tr>
+      <td>Gauche</td>
+      <td>Centre</td>
+      <td>Droite</td>
+    </tr>
+   </table>
+
+   <h4 class="Liens">Liens</h4>
+
+      <p>utiliser: ![Alt Text](url) ou http://github.com - automatic! </p>
+
+
+
+   <h4 class="Images">Images</h4>
+
+      <ol>
+          <li> <p>images statiques
+            On utilise: <br>
+            ![GitHub Logo](/images/logo.png) <br>
+            Format: ![Alt Text](url) </p>
+
+
+            <p><img src="markdown.png" alt="Cheat sheet" title="" />
+              <img src="markdown2.png" alt="Cheat sheet2" title="" /></p></li>
+              <li><p>Images dinamiques ( gif ):</p>
+
+                  <p><img src="https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif" alt="Alt Text" title="" /></p></li>
+      </ol>
+
+    <h4 class="morceau_code">un bout de code:</h4>
+
+      <p>Mettre son code entre: <br>
+
+        ```nom du language de programmation + code```
+      </p>
+
+      <code>
+        &lt;script type="text/javascript" &gt;
+          window.alert("Hello World!");
+
+            alert("Hi dummies!");
+        &lt;  /script&gt;
+      </code>
+
+
+
+  </body>
+</html>

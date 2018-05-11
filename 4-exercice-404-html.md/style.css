@@ -1,0 +1,58 @@
+html {
+    height: 100%;
+}
+body {
+    background: url(http://getwallpapers.com/wallpaper/full/7/a/e/470658.jpg) no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Raleway', sans-serif;
+    background-color: $color2;
+    height: 100%;
+}
+
+.text-wrapper {
+    height: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+.title {
+    font-size: 6em;
+    font-weight: 700;
+    color: $color1;
+}
+
+.subtitle {
+    font-size: 40px;
+    font-weight: 700;
+    color: $color3;
+}
+
+.buttons {
+    margin: 20px;
+    padding-top:20px;
+    width: 180px;
+    height: 40px;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+    border: 2px solid red;
+    border-radius: 25px;
+
+  }
+  @keyframes example {
+    0%   {background-color: red; opacity: 0.8;}
+    25%  {background-color: yellow; opacity: 0.5;}
+    50%  {background-color: blue; opacity: 0.5; }
+    100% {background-color: green; opacity: 0.5; }
+
+}
+    a.button {
+        font-weight: 700;
+        border: 2px solid $color1;
+        text-decoration: none;
+        padding: 15px;
+        text-transform: uppercase;
+        transition: all 0.2s ease-in-out;
+   }

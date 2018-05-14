@@ -1,0 +1,28 @@
+body {
+  background-color: #571E00;
+
+}
+.container {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  padding: 10px;
+
+}
+.navigation_des_langues li  {
+  display: inline;
+  float: right;
+  padding-right: 10px;
+}
+a:hover li {
+  color: #5b4310;
+}
+.banniere_du_site {
+  display: block;
+
+}
+.logo {
+  padding-top: 10px;
+  position: relative;
+}

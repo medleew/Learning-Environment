@@ -26,3 +26,16 @@ a:hover li {
   padding-top: 10px;
   position: relative;
 }
+.navigation_du_site {
+  float: left;
+  margin-right: 10px;
+
+}
+.navigation_du_site li {
+  padding-bottom: 10px;
+}
+#dog {
+  float: right;
+  display: block;
+  padding-bottom: 5px;
+}

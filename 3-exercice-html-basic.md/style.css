@@ -16,9 +16,11 @@ body {
 
 .navigation_des_langues a {
   color: white;
+  text-decoration: none;
 }
+
 .navigation_du_langue a:hover {
-    background-color: shotpink;
+  background-color: shotpink;
 }
 
 main {
@@ -26,8 +28,8 @@ main {
    opacity:0.8;
   border: 2px solid white;
   border-radius: 5px; */
-
 }
+
 .container {
   display: inline-block;
   background-color: white;
@@ -39,7 +41,7 @@ main {
 header{
   /* display: inline; */
   /* width: 100%; */
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   /* border: 2px solid white;
   border-radius: 5px; */
 }
@@ -69,7 +71,7 @@ header{
   list-style: none;
 }
 .navigation_du_site a {
-  font-family: fantasy;
+  font-family: cursive  ;
   font-size: 0.8em;
   color: grey;
   font-weight: bold;
@@ -90,16 +92,27 @@ section {
   font-size: 12px;
 }
 
+.MainParagraph {
+  text-align: justify;
+  margin-right: 10px;
+
+}
+
 blockquote {
   background-color: #ffd480;
   border: 1px solid #cc8800;
-  padding: 0 5px 5px 30px;
+  padding: 2px 5px 5px 30px;
 }
 
 .dog {
   float: right;
+  margin-left: 10px;
 }
 
 .video_sdrb {
   float: right;
+}
+
+footer {
+
 }

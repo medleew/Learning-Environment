@@ -1,0 +1,140 @@
+* {
+  margin:0;
+  padding:0;
+}
+
+body {
+  margin: 0;
+  background: -webkit-linear-gradient(90deg, rgb(122, 50, 12), rgb(146, 112, 93));
+  background: linear-gradient(90deg, rgb(122, 50, 12), rgb(146, 112, 93));
+  margin-right: auto;
+  margin-left: auto;
+  width: 50%;
+}
+
+.navigation_des_langues li {
+  display: inline;
+  float: right;
+  padding-right: 20px;
+  margin-bottom: 10px;
+}
+
+.navigation_des_langues a {
+  color: white;
+  text-decoration: none;
+}
+
+.navigation_du_langue a:hover {
+  background-color: shotpink;
+}
+
+main {
+  /* background-color: white;
+   opacity:0.8;
+  border: 2px solid white;
+  border-radius: 5px; */
+}
+
+.container {
+  display: inline-block;
+  background-color: white;
+  /* opacity:0.8; */
+  border: 2px solid white;
+  border-radius: 5px;
+}
+
+header{
+  /* display: inline; */
+  /* width: 100%; */
+  margin-bottom: 10px;
+  /* border: 2px solid white;
+  border-radius: 5px; */
+}
+
+.logo{
+  display: inline-block;
+  position: absolute;
+  top: 50px;
+  width: 15%;
+}
+
+.couverture_dog {
+  width: 100%;
+}
+
+.navigation_du_site {
+  position: absolute;
+  display: inline-block;
+}
+
+.navigation_du_site ul {
+  float: left;
+  margin-right: 20px;
+  border: 2px outset rgba(146, 112, 93, 0.68);
+  padding-right: 25px;
+  padding-left: 20px;
+  margin-top: 4px;
+  margin-left: 10px;
+}
+
+.navigation_du_site li {
+  padding-bottom: 10px;
+  padding-top: 15px;
+  list-style: none;
+}
+.navigation_du_site a {
+  font-family: cursive  ;
+  font-size: 0.8em;
+  color: grey;
+  font-weight: bold;
+}
+
+.navigation_du_site a:link {
+    text-decoration: none;
+}
+
+section {
+
+  width: 70%;
+  float: right;
+  display: inline-block;
+  position absolute;
+
+
+
+}
+
+.english_paragraph {
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.MainParagraph {
+  text-align: justify;
+  margin-right: 10px;
+
+}
+
+blockquote {
+  background-color: #ffd480;
+  border: 1px solid #cc8800;
+  border-radius: 10px;
+  padding: 2px 5px 5px 30px;
+  margin: 2px 100px 2px 0;
+  font-weight: bold;
+}
+
+.dog {
+  float: right;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+.video_sdrb {
+  float: right;
+}
+
+footer {
+text-align: center;
+}
+

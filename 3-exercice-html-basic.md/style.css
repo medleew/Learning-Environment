@@ -1,3 +1,8 @@
+* {
+  margin:0;
+  padding:0;
+}
+
 body {
   margin: 0;
   background: -webkit-linear-gradient(90deg, rgb(122, 50, 12), rgb(146, 112, 93));
@@ -58,7 +63,7 @@ header{
 }
 
 .navigation_du_site {
-  position: relative;
+  position: absolute;
   display: inline-block;
 }
 
@@ -67,7 +72,9 @@ header{
   margin-right: 20px;
   border: 2px outset rgba(146, 112, 93, 0.68);
   padding-right: 25px;
-
+  padding-left: 20px;
+  margin-top: 4px;
+  margin-left: 10px;
 }
 
 .navigation_du_site li {
@@ -111,12 +118,16 @@ section {
 blockquote {
   background-color: #ffd480;
   border: 1px solid #cc8800;
+  border-radius: 10px;
   padding: 2px 5px 5px 30px;
+  margin: 2px 100px 2px 0;
+  font-weight: bold;
 }
 
 .dog {
   float: right;
   margin-left: 10px;
+  margin-top: 5px;
 }
 
 .video_sdrb {
@@ -124,5 +135,5 @@ blockquote {
 }
 
 footer {
-
+text-align: center;
 }

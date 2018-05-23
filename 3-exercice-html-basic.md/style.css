@@ -73,8 +73,9 @@ header{
   border: 2px outset rgba(146, 112, 93, 0.68);
   padding-right: 25px;
   padding-left: 20px;
-  margin-top: 4px;
   margin-left: 10px;
+  margin-top: 50px;
+  padding-bottom: 10px;
 }
 
 .navigation_du_site li {
@@ -84,7 +85,7 @@ header{
 }
 .navigation_du_site a {
   font-family: cursive  ;
-  font-size: 0.8em;
+  font-size: 1em;
   color: grey;
   font-weight: bold;
 }
@@ -99,7 +100,8 @@ section {
   float: right;
   display: inline-block;
   position absolute;
-
+  margin-top: 50px;
+  margin-bottom: 20px;
 
 
 }
@@ -132,9 +134,9 @@ blockquote {
 
 .video_sdrb {
   float: right;
+  margin-right: 70px;
 }
 
 footer {
 text-align: center;
 }
-

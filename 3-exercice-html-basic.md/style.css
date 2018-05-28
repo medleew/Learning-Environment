@@ -29,26 +29,18 @@ body {
 }
 
 main {
-  /* background-color: white;
-   opacity:0.8;
-  border: 2px solid white;
-  border-radius: 5px; */
+
 }
 
 .container {
   display: inline-block;
   background-color: white;
-  /* opacity:0.8; */
   border: 2px solid white;
   border-radius: 5px;
 }
 
 header{
-  /* display: inline; */
-  /* width: 100%; */
   margin-bottom: 10px;
-  /* border: 2px solid white;
-  border-radius: 5px; */
 }
 
 .logo{
@@ -112,6 +104,7 @@ section {
 .MainParagraph {
   text-align: justify;
   margin-right: 10px;
+  margin-top: 20px;
 
 }
 
@@ -127,12 +120,12 @@ blockquote {
 .dog {
   float: right;
   margin-left: 10px;
-  margin-top: 5px;
+  margin-top: 20px;
 }
 
 .video_sdrb {
   float: right;
-  margin-right: 70px;
+  margin-right: 60px;
 }
 
 footer {
